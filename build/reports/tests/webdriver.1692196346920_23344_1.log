@@ -1,0 +1,133 @@
+[1692196348.212][INFO]: Starting Microsoft Edge WebDriver 115.0.1901.203 (a5a2b1779bcfe71f081bc9104cca968d420a89ac) on port 19178
+[1692196348.213][INFO]: Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+[1692196349.300][INFO]: [a5c5cbb3d4b9a264150ab578e91b01d8] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "MicrosoftEdge",
+         "ms:edgeOptions": {
+            "args": [ "--remote-allow-origins=*", "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--window-size=1920,1080" ],
+            "binary": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\pravd\\IdeaProjects\\ArtemPravduikQA\\build\\downloads\\1692196346871_23344_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1,
+               "safebrowsing.enabled": true
+            }
+         },
+         "pageLoadStrategy": "normal",
+         "unhandledPromptBehavior": "accept"
+      } ]
+   }
+}
+[1692196349.301][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\pravd\\IdeaProjects\\ArtemPravduikQA\\build\\downloads\\1692196346871_23344_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": true
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1692196349.301][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1692196349.303][INFO]: Launching Microsoft Edge: "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-allow-origins=* --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\pravd\AppData\Local\Temp\scoped_dir22840_1549423395" --window-size=1920,1080 data:,
+[1692196349.787][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1692196349.793][INFO]: [a5c5cbb3d4b9a264150ab578e91b01d8] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "msedge",
+      "browserVersion": "115.0.1901.203",
+      "ms:edgeOptions": {
+         "debuggerAddress": "localhost:61639"
+      },
+      "msedge": {
+         "msedgedriverVersion": "115.0.1901.203 (a5a2b1779bcfe71f081bc9104cca968d420a89ac)",
+         "userDataDir": "C:\\Users\\pravd\\AppData\\Local\\Temp\\scoped_dir22840_1549423395"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "accept",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "a5c5cbb3d4b9a264150ab578e91b01d8"
+}
+[1692196349.927][INFO]: [a5c5cbb3d4b9a264150ab578e91b01d8] COMMAND QuitAll {
+}
+[1692196349.987][INFO]: [a5c5cbb3d4b9a264150ab578e91b01d8] RESPONSE QuitAll
